@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-image: linear-gradient(rgb(184, 135, 103), beige);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.principal {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.esquerda {
+  /* background-color: aqua;*/
+  background-image: url("casa.jpg");
+  background-size: calc(110%);
+  width: 40%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px 0px 0px 30px;
+}
+
+.direita {
+  background-color: rgb(237, 201, 147);
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 30px 30px 0px;
+}
+
+form {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 50%;
+  height: 50%;
+  padding: 2% 5%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  opacity: 0.9;
+  gap: 2px;
+  color: black;
+}
+
+.Linha {
+  background-color: rgb(5, 5, 5);
+  height: 1%;
+  width: 300px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 15px;
+}
+
+.form-group input {
+  padding: 7px;
+  border: 0;
+  border-radius: 5px;
+}
+
+.lembrar-me {
+  color: black;
+  display: flex;
+  gap: 5px;
+}
+
+button {
+  height: 30px;
+  border: 0;
+  cursor: pointer;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: grey;
+}
